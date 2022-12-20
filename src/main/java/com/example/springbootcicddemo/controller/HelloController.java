@@ -10,6 +10,10 @@ public class HelloController {
 
     @GetMapping("/welcome")
     public String welcome(){
+<<<<<<< Updated upstream
         return "Welcome  Hello Controller";
+=======
+        return "Welcome to Hello Controller spring boot";
+>>>>>>> Stashed changes
     }
 }
